@@ -1,10 +1,11 @@
 import React from "react";
 import Template from "./Template";
+import Hero from "./_components/LandingPage/Hero";
 
 const Home = () => {
   return (
     <Template>
-      <h2>Hello world</h2>
+      <Hero />
     </Template>
   );
 };
