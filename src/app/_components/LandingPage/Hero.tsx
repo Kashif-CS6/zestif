@@ -21,7 +21,7 @@ const Hero = () => {
               <input
                 placeholder="e.g. EC4R 3TE"
                 type="text"
-                className="outline-none bg-transparent px-6 text-[15px] font-[400]"
+                className="outline-none bg-transparent px-6 text-[15px] font-[400] placeholder:text-[#000000CC]"
                 name=""
                 id=""
               />
@@ -43,7 +43,7 @@ const Hero = () => {
           width={626}
           height={610}
           alt="Cover Image"
-          className="absolute right-0 top-0 h-[610px]   bottom-0"
+          className="absolute right-0 top-0 h-full   bottom-0"
         />
         <Image
           src={"/girl-bg.png"}
