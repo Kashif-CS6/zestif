@@ -4,6 +4,7 @@ import Hero from "./_components/LandingPage/Hero";
 import Menu from "./_components/LandingPage/Menu";
 import CategoryMenu from "./_components/LandingPage/CategoryMenu";
 import Image from "next/image";
+import PopularRestaurants from "./_components/LandingPage/PopularRestaurants";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Menu />
       <CategoryMenu />
+      <PopularRestaurants />
       <div className="rounded-[12px] border-[1px] mb-12 h-[661px] border-[#00000033]">
         <Image
           src={"/ad.jpg"}

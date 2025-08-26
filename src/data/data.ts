@@ -60,4 +60,38 @@ const categoryMenu = [
     total: "21 Restaurants",
   },
 ];
-export { menus,categoryMenu };
+
+const popularRestaurants = [
+  {
+    id: "1",
+    image: "/mac.svg",
+    heading: "McDonald’s London",
+  },
+  {
+    id: "2",
+    image: "/pj.svg",
+    heading: "Papa Johns",
+  },
+  {
+    id: "3",
+    image: "/kfc.svg",
+    heading: "KFC West London",
+  },
+  {
+    id: "4",
+    image: "/Texas.svg",
+    heading: "Texas Chicken",
+  },
+  {
+    id: "5",
+    image: "/bk.svg",
+    heading: "Burger King",
+  },
+  {
+    id: "6",
+    image: "/shaurma.svg",
+    heading: "Shaurma 1",
+  },
+];
+
+export { menus, categoryMenu,popularRestaurants };
