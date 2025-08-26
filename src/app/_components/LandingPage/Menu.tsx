@@ -7,7 +7,7 @@ const Menu = () => {
     <div className="flex flex-col gap-8 my-10">
       <div className="flex items-center justify-between ">
         <h1 className="leading-[100%] text-[32px] font-[700]">
-          Up to -40% 🎊 Order.uk exclusive deals
+          Up to -40% 🎊 ZestIf.pk exclusive deals
         </h1>
         <ul className="flex items-center">
           <li>
