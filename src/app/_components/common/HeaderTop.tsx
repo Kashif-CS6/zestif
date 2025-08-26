@@ -19,7 +19,7 @@ const HeaderTop = () => {
         <div className="flex items-center gap-[10px]">
           <Image width={25} height={25} src={"/Location.svg"} alt="location" />
           <h1 className="font-[500] text-[15px]">
-            Regent Street, A4, A4201, London
+            Regent Street, 23, Gulberg Islamabad, Pakistan
           </h1>
           <button className="text-[#FC8A06] underline text-[14px]  font-[500]">
             Change Location
@@ -35,7 +35,7 @@ const HeaderTop = () => {
           23 Items
         </h1>
         <h1 className="border-r  border-r-[#FFFFFF] px-4 font-[600] text-[16px] text-white  flex items-center justify-center  ">
-          GBP 79.89
+          PKR 1279.89
         </h1>
         <button className="flex-1 flex items-center justify-center">
           <Image width={43} height={43} src={"/forward.svg"} alt="Forward" />
