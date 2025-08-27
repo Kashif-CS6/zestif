@@ -94,4 +94,21 @@ const popularRestaurants = [
   },
 ];
 
-export { menus, categoryMenu,popularRestaurants };
+const joinOption = [
+  {
+    id: 1,
+    tag: "Earn more with lower fees",
+    heading: "Partner with us",
+    subheading: "Signup as business",
+    buttontitle: " Get Started",
+  },
+  {
+    id: 2,
+    tag: "Avail exclusive perks",
+    heading: "Ride with us",
+    subheading: "Signup as a rider",
+    buttontitle: " Get Started",
+  },
+];
+
+export { menus, categoryMenu, popularRestaurants, joinOption };

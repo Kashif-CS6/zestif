@@ -5,6 +5,7 @@ import Menu from "./_components/LandingPage/Menu";
 import CategoryMenu from "./_components/LandingPage/CategoryMenu";
 import Image from "next/image";
 import PopularRestaurants from "./_components/LandingPage/PopularRestaurants";
+import JoinOption from "./_components/LandingPage/JoinOption";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           className="object-cover  h-full rounded-[12px]  "
         />
       </div>
+      <JoinOption />
     </Template>
   );
 };
