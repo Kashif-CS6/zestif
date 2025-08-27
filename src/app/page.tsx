@@ -6,6 +6,7 @@ import CategoryMenu from "./_components/LandingPage/CategoryMenu";
 import Image from "next/image";
 import PopularRestaurants from "./_components/LandingPage/PopularRestaurants";
 import JoinOption from "./_components/LandingPage/JoinOption";
+import InfoSections from "./_components/LandingPage/InfoSections";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         />
       </div>
       <JoinOption />
+      <InfoSections />
     </Template>
   );
 };
