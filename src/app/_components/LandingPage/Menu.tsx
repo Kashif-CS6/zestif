@@ -34,7 +34,7 @@ const Menu = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center justify-between flex-wrap gap-4">
+      <div className="flex items-center justify-between flex-wrap lg:flex-nowrap gap-4">
         {menus.map((item, index) => (
           <MenuCard key={item.id} item={item} />
         ))}

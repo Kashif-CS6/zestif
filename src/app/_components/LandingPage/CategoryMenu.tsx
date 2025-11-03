@@ -9,7 +9,7 @@ const CategoryMenu = () => {
         ZestIf.pk Popular Categories 🤩
       </h1>
 
-      <div className="flex items-center flex-wrap gap-4 justify-between">
+      <div className="flex items-center flex-wrap lg:flex-nowrap gap-4 justify-between">
         {categoryMenu.map((item, index) => (
           <div
             key={index}

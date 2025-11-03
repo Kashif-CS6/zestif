@@ -75,7 +75,7 @@ const Header = () => {
         </li>
       </ul>
 
-      <button>
+      <button className="md:hidden">
         <BiMenu className="text-[#FC8A06]" size={30} />
       </button>
     </header>

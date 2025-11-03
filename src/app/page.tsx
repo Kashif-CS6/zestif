@@ -19,7 +19,7 @@ const Home = () => {
       <div className="rounded-[12px] border-[1px] mb-12 h-[430px] border-[#00000033]">
         <Image
           src={"/ad.jpg"}
-          width={1533}
+          width={1280}
           height={430}
           alt="Ad"
           className="object-cover  h-full rounded-[12px]  "

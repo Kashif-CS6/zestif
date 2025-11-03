@@ -5,10 +5,10 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <div className="py-3 mx-2 md:mx-0 bg-[#03081F]">
+      <div className="py-3 md:mx-0 bg-[#03081F]">
         <div className="md:w-[1280px] h-full mx-auto text-sm font-[400] text-[#FFFFFF] leading-[100%] flex items-center flex-wrap justify-center  md:justify-between">
           <h1>Zestif.pk Copyright 2025, All Right Reserved.</h1>
-          <ul className="flex items-center gap-6">
+          <ul className="flex items-center flex-wrap lg:flex-nowrap gap-2 lg:gap-6 px-2 my-4">
             <li>
               <Link href={"/"}>Privacy Policy</Link>
             </li>

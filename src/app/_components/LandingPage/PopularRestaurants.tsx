@@ -9,7 +9,7 @@ const PopularRestaurants = () => {
       <h1 className="leading-[100%] text-3xl font-[600]">
         Popular Restaurants
       </h1>
-      <div className="flex items-center justify-between flex-wrap gap-4">
+      <div className="flex items-center justify-between flex-wrap lg:flex-nowrap gap-4">
         {popularRestaurants.map((item, index) => (
           <div
             key={index}
