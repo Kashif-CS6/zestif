@@ -4,14 +4,15 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "../Logo";
 import { useRouter } from "next/navigation";
+import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<string>("home");
   return (
-    <header className="flex items-center justify-between my-4">
+    <header className="flex items-center   justify-between my-4">
       <Logo />
-      <ul className="text-sm font-[500] leading-[100%] flex items-center gap-10">
+      <ul className="text-sm font-[500] leading-[100%]  md:flex items-center gap-10 hidden">
         <li
           onClick={() => setActiveTab("home")}
           className={`${
@@ -73,6 +74,10 @@ const Header = () => {
           </button>
         </li>
       </ul>
+
+      <button>
+        <BiMenu className="text-[#FC8A06]" size={30} />
+      </button>
     </header>
   );
 };

@@ -3,9 +3,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-[430px] w-full bg-[#FBFBFB] border-[1px] border-[#00000033] rounded-[12px] relative">
+    <div className="h-[430px]  bg-[#FBFBFB] border-[1px] border-[#00000033] rounded-[12px] relative">
       <div className="w-full h-full relative">
-        <div className="flex flex-col justify-center h-full pl-20">
+        <div className="flex flex-col justify-center h-full px-4 md:px-0 md:pl-20">
           <h1 className="font-[400] text-sm leading-[46px]">
             Order Restaurant food, takeaway and groceries.
           </h1>
@@ -17,7 +17,7 @@ const Hero = () => {
             <h1 className="font-[400] text-[13px] leading-[46px]">
               Enter a postcode to see what we deliver
             </h1>
-            <div className="w-[397px] relative border-[1px] border-[#00000066] rounded-[120px] flex items-center justify-between  h-[46px]">
+            <div className="md:w-[397px] relative border-[1px] border-[#00000066] rounded-[120px] flex items-center justify-between  h-[46px]">
               <input
                 placeholder="e.g. EC4R 3TE"
                 type="text"

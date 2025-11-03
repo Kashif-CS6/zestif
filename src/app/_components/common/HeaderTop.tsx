@@ -3,10 +3,10 @@ import React from "react";
 
 const HeaderTop = () => {
   return (
-    <header className="flex items-center ">
+    <header className="md:flex items-center hidden  flex-wrap ">
       {/* left side */}
-      <div className="h-[50px] flex-1 px-4 bg-[#FAFAFA] flex items-center justify-between rounded-bl-[12px] border-[1px] border-[#0000001A]">
-        <div className="flex items-center gap-2 text-sm">
+      <div className="py-3 md:flex-1 px-4 bg-[#FAFAFA] flex items-center flex-wrap justify-between rounded-bl-[12px] border-[1px] border-[#0000001A]">
+        <div className="flex items-center flex-wrap gap-2 text-sm">
           <h1 className="">🌟</h1>
           <h1 className="font-[500]">
             Get 5% Off your first order,{" "}
@@ -14,7 +14,7 @@ const HeaderTop = () => {
           </h1>
         </div>
 
-        <div className="flex items-center gap-[10px]">
+        <div className="flex items-center flex-wrap gap-[10px]">
           <Image width={20} height={20} src={"/Location.svg"} alt="location" />
           <h1 className="font-[500] text-sm ">
             Regent Street, 23, Gulberg Islamabad, Pakistan
@@ -25,7 +25,7 @@ const HeaderTop = () => {
         </div>
       </div>
 
-      <div className=" text-sm border-[1px] rounded-br-[12px] bg-[#028643] h-[50px] flex justify-between">
+      <div className=" text-sm border-[1px] rounded-br-[12px] bg-[#028643] py-3 flex justify-center md:justify-between  flex-wrap">
         <button className="border-r w-14 border-r-[#FFFFFF]  flex items-center justify-center">
           <Image width={20} height={20} src={"/shoping.svg"} alt="Shoping" />
         </button>

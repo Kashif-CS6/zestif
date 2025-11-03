@@ -15,7 +15,7 @@ const JoinOptionCard: FC<JoinOptionCardTypes> = ({ item }) => {
   return (
     <div
       style={{ backgroundImage: `url(/chickens.jpg)` }}
-      className="w-1/2 h-[310px] rounded-[12px] bg-cover relative flex items-end"
+      className="w-full md:w-1/2 h-[310px] rounded-[12px] bg-cover relative flex items-end"
     >
       <div className="absolute rounded-[12px] inset-0 bg-[linear-gradient(247.7deg,_rgba(255,_255,_255,_0)_0.94%,_rgba(3,_8,_31,_0.19)_75.68%,_rgba(3,_8,_31,_0.89)_95.9%)]"></div>
       <div className="px-10 py-3 rounded-b-[12px] bg-white flex items-center justify-center absolute top-0 left-14">

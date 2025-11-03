@@ -5,8 +5,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <div className="h-[50px] bg-[#03081F]">
-        <div className="w-[1280px] h-full mx-auto text-sm font-[400] text-[#FFFFFF] leading-[100%] flex items-center justify-between">
+      <div className="py-3 mx-2 md:mx-0 bg-[#03081F]">
+        <div className="md:w-[1280px] h-full mx-auto text-sm font-[400] text-[#FFFFFF] leading-[100%] flex items-center flex-wrap justify-center  md:justify-between">
           <h1>Zestif.pk Copyright 2025, All Right Reserved.</h1>
           <ul className="flex items-center gap-6">
             <li>

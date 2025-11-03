@@ -9,11 +9,11 @@ const PopularRestaurants = () => {
       <h1 className="leading-[100%] text-3xl font-[600]">
         Popular Restaurants
       </h1>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-4">
         {popularRestaurants.map((item, index) => (
           <div
             key={index}
-            className="w-[205px] h-[240px]  rounded-[12px] bg-[#F5F5F5] cursor-pointer leading-[100%]"
+            className="w-[190px] md:w-[205px]   rounded-[12px] bg-[#F5F5F5] cursor-pointer leading-[100%]"
           >
             <Image src={item.image} width={238} height={180} alt="" />
             <div className=" bg-[#FC8A06] h-[53px] rounded-b-[12px] text-white flex items-center justify-center">

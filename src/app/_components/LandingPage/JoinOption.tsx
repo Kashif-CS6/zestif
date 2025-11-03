@@ -3,7 +3,7 @@ import JoinOptionCard from "./JoinOptionCard";
 import { joinOption } from "@/data/data";
 const JoinOption = () => {
   return (
-    <div className="mb-10 flex items-center gap-4 justify-between">
+    <div className="mb-10 flex flex-col  md:flex-row items-center gap-4  justify-between">
       {joinOption.map((item, index) => (
         <JoinOptionCard key={index} item={item} />
       ))}

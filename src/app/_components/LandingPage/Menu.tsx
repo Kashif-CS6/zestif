@@ -5,8 +5,8 @@ import { menus } from "@/data/data";
 const Menu = () => {
   return (
     <div className="flex flex-col gap-8 my-10">
-      <div className="flex items-center justify-between ">
-        <h1 className="leading-[100%] text-3xl font-[600]">
+      <div className="flex items-center justify-between flex-wrap ">
+        <h1 className="leading-[100%] md:text-3xl font-[600]">
           Up to -40% 🎊 ZestIf.pk exclusive deals
         </h1>
         <ul className="flex items-center">
@@ -34,7 +34,7 @@ const Menu = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-4">
         {menus.map((item, index) => (
           <MenuCard key={item.id} item={item} />
         ))}
