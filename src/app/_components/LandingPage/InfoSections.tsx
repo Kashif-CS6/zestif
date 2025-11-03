@@ -4,7 +4,7 @@ const InfoSections = () => {
   return (
     <div className="mb-10 h-[882px] rounded-[12px] bg-[#D9D9D9]  flex flex-col items-center justify-center gap-16">
       <div className="flex items-center justify-between w-[1290px]">
-        <h1 className="leading-[100%] text-[32px] font-[700]">
+        <h1 className="leading-[100%] text-3xl font-[600]">
           Know more about us!
         </h1>
         <ul className="flex items-center">

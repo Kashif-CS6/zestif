@@ -16,11 +16,11 @@ const Home = () => {
       <Menu />
       <CategoryMenu />
       <PopularRestaurants />
-      <div className="rounded-[12px] border-[1px] mb-12 h-[661px] border-[#00000033]">
+      <div className="rounded-[12px] border-[1px] mb-12 h-[430px] border-[#00000033]">
         <Image
           src={"/ad.jpg"}
           width={1533}
-          height={661}
+          height={430}
           alt="Ad"
           className="object-cover  h-full rounded-[12px]  "
         />

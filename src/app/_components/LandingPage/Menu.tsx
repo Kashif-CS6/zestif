@@ -6,29 +6,29 @@ const Menu = () => {
   return (
     <div className="flex flex-col gap-8 my-10">
       <div className="flex items-center justify-between ">
-        <h1 className="leading-[100%] text-[32px] font-[700]">
+        <h1 className="leading-[100%] text-3xl font-[600]">
           Up to -40% 🎊 ZestIf.pk exclusive deals
         </h1>
         <ul className="flex items-center">
           <li>
-            <button className="text-[16px] font-[400] leading-[100%] h-[61px] focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] px-10">
+            <button className="text-sm font-[400] leading-[100%]  p-[10px] px-6 focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] ">
               Vegan
             </button>
           </li>
           <li>
-            <button className="text-[16px] font-[400] leading-[100%] h-[61px] focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] px-10">
+            <button className="text-sm font-[400] leading-[100%] focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] p-[10px] px-6">
               Sushi
             </button>
           </li>
           <li>
             {" "}
-            <button className="text-[16px] font-[400] leading-[100%] h-[61px] focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] px-10">
+            <button className="text-sm font-[400] leading-[100%]  focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] p-[10px] px-6">
               Pisa & Fast foods
             </button>
           </li>
           <li>
             {" "}
-            <button className="text-[16px] font-[400] leading-[100%] h-[61px] focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] px-10">
+            <button className="text-sm font-[400] leading-[100%]  focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] p-[10px] px-6">
               Others
             </button>
           </li>
