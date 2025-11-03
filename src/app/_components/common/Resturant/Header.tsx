@@ -9,13 +9,13 @@ const Header = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<string>("home");
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between my-4">
       <Logo />
-      <ul className="text-[18px] font-[500] leading-[100%] flex items-center gap-14">
+      <ul className="text-sm font-[500] leading-[100%] flex items-center gap-10">
         <li
           onClick={() => setActiveTab("home")}
           className={`${
-            activeTab === "home" ? "px-6 h-[45px] bg-[#FC8A06] " : ""
+            activeTab === "home" ? "px-6 py-[10px]  bg-[#FC8A06] " : ""
           }rounded-[120px] flex items-center justify-center`}
         >
           <Link href={"/"}>Home</Link>
@@ -23,8 +23,8 @@ const Header = () => {
         <li
           onClick={() => setActiveTab("menu")}
           className={`${
-            activeTab === "menu" ? "px-6 h-[45px] bg-[#FC8A06] " : ""
-          }rounded-[120px] flex items-center justify-center`}
+            activeTab === "menu" ? "px-6 py-[10px]  bg-[#FC8A06] " : ""
+          }rounded-[120px]  flex items-center justify-center`}
         >
           {" "}
           <Link href={"/"}>Browser Menu</Link>
@@ -32,7 +32,7 @@ const Header = () => {
         <li
           onClick={() => setActiveTab("specialoffers")}
           className={`${
-            activeTab === "specialoffers" ? "px-6 h-[45px] bg-[#FC8A06] " : ""
+            activeTab === "specialoffers" ? "px-6 py-[10px] bg-[#FC8A06] " : ""
           }rounded-[120px] flex items-center justify-center`}
         >
           {" "}
@@ -41,7 +41,7 @@ const Header = () => {
         <li
           onClick={() => setActiveTab("resturants")}
           className={`${
-            activeTab === "resturants" ? "px-6 h-[45px] bg-[#FC8A06] " : ""
+            activeTab === "resturant" ? "px-6 py-[10px]  bg-[#FC8A06] " : ""
           }rounded-[120px] flex items-center justify-center`}
         >
           {" "}
@@ -50,13 +50,13 @@ const Header = () => {
         <li
           onClick={() => setActiveTab("trackorder")}
           className={`${
-            activeTab === "trackorder" ? "px-6 h-[45px] bg-[#FC8A06] " : ""
+            activeTab === "trackorder" ? "px-6 py-[10px] bg-[#FC8A06] " : ""
           }rounded-[120px] flex items-center justify-center`}
         >
           {" "}
           <Link href={"/"}>Track Order</Link>
         </li>
-        <li className="text-white bg-black w-[234px] h-[61px] rounded-[120px] flex items-center justify-center">
+        <li className="text-white bg-black px-4 py-[10px] rounded-[120px] flex items-center justify-center">
           <button
             onClick={() => {
               router.push("/auth/login");
