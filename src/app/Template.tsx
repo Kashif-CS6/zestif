@@ -1,5 +1,5 @@
-import Header from "@/app/_components/common/Resturant/Header";
-import Footer from "@/app/_components/common/Resturant/Footer";
+import Header from "./_components/common/Header";
+import Footer from "@/app/_components/common/Footer";
 import HeaderTop from "./_components/common/HeaderTop";
 
 export default function Template({ children }: { children: React.ReactNode }) {

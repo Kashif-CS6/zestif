@@ -9,7 +9,7 @@ const CategoryMenu = () => {
         ZestIf.pk Popular Categories 🤩
       </h1>
 
-      <div className="flex items-center flex-wrap lg:flex-nowrap gap-4 justify-between">
+      <div className="flex items-center flex-wrap justify-center lg:flex-nowrap gap-4 lg:justify-between">
         {categoryMenu.map((item, index) => (
           <div
             key={index}
@@ -18,9 +18,7 @@ const CategoryMenu = () => {
             <Image src={item.image} width={238} height={180} alt="" />
             <div className="p-3 space-y-1">
               <h1 className="text-sm font-[700]">{item.heading}</h1>
-              <p className="text-[#FC8A06] text-sm font-[400]">
-                {item.total}
-              </p>
+              <p className="text-[#FC8A06] text-sm font-[400]">{item.total}</p>
             </div>
           </div>
         ))}

@@ -9,7 +9,7 @@ const Menu = () => {
         <h1 className="leading-[100%] md:text-3xl font-[600]">
           Up to -40% 🎊 ZestIf.pk exclusive deals
         </h1>
-        <ul className="flex items-center">
+        <ul className="flex items-center flex-wrap justify-center my-2 md:my-0 md:justify-start">
           <li>
             <button className="text-sm font-[400] leading-[100%]  p-[10px] px-6 focus:font-[600] focus:rounded-[120px] focus:border-[1px] focus:border-[#FC8A06] focus:text-[#FC8A06] ">
               Vegan

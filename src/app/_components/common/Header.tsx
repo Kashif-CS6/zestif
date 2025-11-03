@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "../Logo";
+import Logo from "./Logo";
 import { useRouter } from "next/navigation";
 import { BiMenu } from "react-icons/bi";
 
