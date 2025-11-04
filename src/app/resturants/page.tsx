@@ -9,7 +9,7 @@ import Header from "../_components/common/Header";
 const Resturants = () => {
   return (
     <div>
-      <div className="w-full mx-auto md:max-w-[1280px] ">
+      <div className="px-2 md:px-0 w-full mx-auto md:max-w-[1280px] ">
         <HeaderTop />
         <Header />
         <Hero />

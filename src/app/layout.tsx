@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppin.className}`}>
-        <div className="flex flex-col min-h-screen justify-between">
+        <div className="flex flex-col h-screen justify-between">
           {children}
-        <Footer />
+          <Footer />
         </div>
       </body>
     </html>
