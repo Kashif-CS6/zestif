@@ -21,7 +21,7 @@ const Navigations = () => {
 
   return (
     <div className="bg-[#FC8A06] h-[60px] flex flex-col justify-center items-center w-full my-5">
-      <ul className="lg:max-w-[1280px] mx-auto flex items-center justify-between w-full text-white font-semibold">
+      <ul className="lg:max-w-[1280px] mx-auto flex items-center justify-between w-full text-white font-semibold overflow-x-auto px-2 md:px-0">
         {navItems.map((item, index: number) => (
           <li
             key={index}
